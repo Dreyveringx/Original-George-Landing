@@ -1,5 +1,5 @@
 import React from "react";
-import Academia from "../assets/academia.mp4";
+import Academia from "../assets/Academia.mp4";
 import Welcome from "./Welcome";
 import Contact from "./Contac";
 import "../styles/styles.css";
