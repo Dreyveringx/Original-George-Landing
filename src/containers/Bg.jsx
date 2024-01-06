@@ -1,5 +1,5 @@
 import React from "react";
-import Particle from "../assets/particle1.mp4";
+import Particle from "../assets/Particle1.mp4";
 
 const Bg = ({ autoplay = true, muted = true, loop = true }) => {
   const videoStyle = {
