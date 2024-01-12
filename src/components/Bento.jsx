@@ -3,7 +3,7 @@ import Academia from "../assets/Academia.mp4";
 import Welcome from "./Welcome";
 import Contact from "./Contac";
 import "../styles/styles.css";
-import Instagram from "../assets/Instagram.svg";
+import Instagram from "../assets/instagram.svg";
 import Whatsapp from "../assets/whatsapp.svg";
 import Footer from "./Footer";
 const Bento = ({ backgroundImage }) => {
