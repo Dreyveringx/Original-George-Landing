@@ -5,7 +5,7 @@ import Contact from "./Contac.jsx";
 import "../styles/styles.css";
 import Instagram from "../assets/instagram.svg";
 import Whatsapp from "../assets/whatsapp.svg";
-import Footer from "./Footer.jsx";
+import Footer from "./Footerr.jsx";
 const Bento = ({ backgroundImage }) => {
   const bentoStyle = {
     backgroundImage: `url(${backgroundImage})`,

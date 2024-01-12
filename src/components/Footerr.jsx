@@ -1,6 +1,6 @@
 import React from "react";
 
-const Footer = () => {
+const Footerr = () => {
   return (
     <>
       <footer class="rounded-lg mt-10">
@@ -56,4 +56,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footerr;
