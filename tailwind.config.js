@@ -11,6 +11,8 @@ export default {
         secondary: "#5ae6ff",
         tertiary: "#ffed92",
         quaternary: "#005395",
+        quinary: "#E6CF01",
+        senary: "#ffe15c",
       },
       lineHeight: {
         50: "50px",

@@ -15,7 +15,7 @@ const Hero = () => {
           <p className="mt-5 sm:text-sm md:text-xl lg:text-2xl font-serif font-normal">
             ¡Descubre la revolución en el mundo del trading!
           </p>
-          <p className="mt-5 mb-10 sm:text-base md:text-lg lg:text-xl text-secondary font-serif font-normal">
+          <p className="mt-5 mb-10 sm:text-base md:text-lg lg:text-xl text-yellow-500 font-serif font-normal">
             Únete a la Primera Academia de Trading Gratuita.
           </p>
           <a
