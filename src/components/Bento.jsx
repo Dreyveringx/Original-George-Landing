@@ -1,11 +1,11 @@
 import React from "react";
 import Academia from "../assets/Academia.mp4";
-import Welcome from "./Welcome";
-import Contact from "./Contac";
+import Welcome from "./Welcome.jsx";
+import Contact from "./Contac.jsx";
 import "../styles/styles.css";
 import Instagram from "../assets/instagram.svg";
 import Whatsapp from "../assets/whatsapp.svg";
-import Footer from "./Footer";
+import Footer from "./Footer.jsx";
 const Bento = ({ backgroundImage }) => {
   const bentoStyle = {
     backgroundImage: `url(${backgroundImage})`,
