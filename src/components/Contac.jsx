@@ -79,7 +79,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="flex items-center justify-center flex-col  "
+      className="flex items-center justify-center flex-col mt-10 mb-10"
     >
       {/* Alert */}
       <AnimatePresence>
@@ -89,8 +89,18 @@ const Contact = () => {
       </AnimatePresence>
       {/* Title */}
 
+      <div className="w-full flex flex-col items-center justify-center">
+        <h1 className="text-2xl lg:text-4xl font-serif font-semibold text-yellow-500 mb-4 text-center">
+          ¡Conéctate conmigo!
+        </h1>
+        <p className="text-xl lg:text-3xl text-white font-serif font-normal text-pretty">
+          Explora oportunidades, despeja dudas o simplemente saluda. Estoy aquí
+          para ti.
+        </p>
+      </div>
+
       {/* main content */}
-      <div className=" w-full flex flex-col items-center justify-start gap-4 font-sans font-normal text-xl mt-10 mb-32">
+      <div className=" w-full flex flex-col items-center justify-start gap-4 font-sans font-normal text-xl mt-10 mb-10">
         <div className="w-full lg:w-[600px] p-2 flex flex-col items-center justify-center gap-4">
           <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-4">
             <input

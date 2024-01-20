@@ -1,15 +1,13 @@
 import React from "react";
 
-import Hero from "./components/Hero.jsx";
 import "./App.css";
-import Information from "./components/Information.jsx";
+import Home from "./components/Home.jsx";
 
 function App() {
   return (
-    <div>
-      <Hero />
-      <Information />
-    </div>
+    <>
+      <Home />
+    </>
   );
 }
 

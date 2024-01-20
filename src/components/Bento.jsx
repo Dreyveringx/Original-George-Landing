@@ -22,11 +22,11 @@ const Bento = ({ backgroundImage }) => {
   return (
     <>
       <section style={bentoStyle}>
-        <div className="w-11/12 max-w-screen-2xl mx-auto rounded-2xl text-5xl leading-50 text-center text-white grid grid-cols-3  gap-3 mb-10">
-          <div className="col-span-3 p-5 bg-black bg-opacity-70 h-[400px] mt-10 rounded-2xl flex justify-center items-center ">
+        <div className="w-full lg:max-w-screen-2xl lg:mx-auto p-5 rounded-2xl text-5xl leading-50 text-center text-white flex flex-col lg:grid lg:grid-cols-3 gap-3">
+          <div className="lg:col-span-3 bg-black bg-opacity-70 h-[350px] md:h-[200px]  lg:h-auto mt-10 rounded-2xl flex justify-center items-center">
             <Welcome />
           </div>
-          <div className="block lg:col-span-2 md:col-span-3 row-span-3 bg-black bg-opacity-80 h-[800px]">
+          <div className="block lg:col-span-2 lg:row-span-3 bg-black bg-opacity-80 lg:h-[800px]">
             <video
               autoPlay
               loop
@@ -38,7 +38,7 @@ const Bento = ({ backgroundImage }) => {
             </video>
           </div>
           <div className="p-5 row-span-2 flex items-center bg-black bg-opacity-80 text-left">
-            <ul className="text-3xl list-disc m-5 text-yellow-500 leading-50">
+            <ul className="text-xl lg:text-3xl list-disc m-5 text-yellow-300 lg:leading-50">
               <li>Aprendizaje sin costo </li>
               <li>Primeros Pasos al Mundo del Trading</li>
               <li>Desarrollo de Habilidades de Trading</li>
