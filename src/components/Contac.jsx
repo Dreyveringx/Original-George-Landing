@@ -129,7 +129,7 @@ const Contact = () => {
             name="user_phone"
             value={data.user_phone}
             onChange={handleTextChange}
-            placeholder="Telefono"
+            placeholder="Teléfono"
             className="w-full px-4 py-3 rounded-md border border-[rgba(255,255,255,0.3)] bg-transparent focus:border-senary outline-none text-white"
           />
 
