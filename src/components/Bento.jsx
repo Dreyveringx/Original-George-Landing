@@ -32,7 +32,7 @@ const Bento = ({ backgroundImage }) => {
               loop
               id="videoFondo"
               controls
-              className="w-full h-full object-scale-down"
+              className="w-full h-full object-scale-down rounded-2xl"
             >
               <source src={Academia} type="video/mp4" />
             </video>
