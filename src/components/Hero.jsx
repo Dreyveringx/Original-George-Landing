@@ -28,7 +28,7 @@ const Hero = () => {
             Hola soy George y quiero mostrarte cómo,sin dejar tu profesión
             actual, puedes generar una segunda fuente de ingreso en el mercado
             más grande del mundo sin pagar mensualidades y de la mano de la
-            mejor academia
+            mejor academia.
           </p>
         </div>
         <img

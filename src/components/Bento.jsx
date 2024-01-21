@@ -45,11 +45,11 @@ const Bento = ({ backgroundImage }) => {
               Beneficios
             </h1>
             <ul className="text-xl lg:text-2xl list-disc m-5 text-white lg:leading-10">
-              <li>Aprendizaje sin costo </li>
-              <li>Primeros Pasos al Mundo del Trading</li>
-              <li>Desarrollo de Habilidades de Trading</li>
-              <li>Acceso a Recursos Educativos</li>
-              <li>Capacitación de Psicotrading</li>
+              <li>Aprendizaje sin costo. </li>
+              <li>Primeros Pasos al Mundo del Trading.</li>
+              <li>Desarrollo de Habilidades de Trading.</li>
+              <li>Acceso a Recursos Educativos.</li>
+              <li>Capacitación de Psicotrading.</li>
             </ul>
 
             <h1 className="text-2xl lg:text-4xl font-serif font-semibold text-yellow-500 mb-5">
