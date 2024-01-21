@@ -93,7 +93,7 @@ const Contact = () => {
         <h1 className="text-2xl lg:text-4xl font-serif font-semibold text-yellow-500 mb-4 text-center">
           ¡Conéctate conmigo!
         </h1>
-        <p className="text-xl lg:text-3xl text-white font-serif font-normal text-pretty">
+        <p className="text-xl lg:text-3xl text-white font-serif font-normal text-pretty p-5">
           Explora oportunidades, despeja dudas o simplemente saluda. Estoy aquí
           para ti.
         </p>

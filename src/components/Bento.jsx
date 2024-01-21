@@ -26,7 +26,7 @@ const Bento = ({ backgroundImage }) => {
           <div className="lg:col-span-3 bg-black bg-opacity-70 h-[350px] md:h-[200px]  lg:h-auto mt-10 rounded-2xl flex justify-center items-center">
             <Welcome />
           </div>
-          <div className="block lg:col-span-2 lg:row-span-3 bg-black bg-opacity-80 lg:h-[800px]">
+          <div className="block lg:col-span-2 lg:row-span-3 bg-black bg-opacity-80 lg:h-[750px] rounded-2xl">
             <video
               autoPlay
               loop
@@ -39,19 +39,63 @@ const Bento = ({ backgroundImage }) => {
           </div>
           <div
             id="Beneficios"
-            className="p-5 row-span-2 flex items-center bg-black bg-opacity-80 text-left"
+            className="p-5 row-span-2 flex items-center bg-black bg-opacity-80 text-left flex-col rounded-2xl"
           >
-            <ul className="text-xl lg:text-3xl list-disc m-5 text-yellow-300 lg:leading-50">
+            <h1 className="text-2xl lg:text-4xl font-serif font-semibold text-yellow-500 mb-5">
+              Beneficios
+            </h1>
+            <ul className="text-xl lg:text-2xl list-disc m-5 text-white lg:leading-10">
               <li>Aprendizaje sin costo </li>
               <li>Primeros Pasos al Mundo del Trading</li>
               <li>Desarrollo de Habilidades de Trading</li>
               <li>Acceso a Recursos Educativos</li>
               <li>Capacitación de Psicotrading</li>
             </ul>
+
+            <h1 className="text-2xl lg:text-4xl font-serif font-semibold text-yellow-500 mb-5">
+              Lo que aprenderás
+            </h1>
+            <ul className="text-xl lg:text-2xl list-none m-5 text-white lg:leading-10">
+              <li>
+                <span className="mr-2 text-yellow-300">&#10003;</span>
+                <span>Cómo usar estrategias rentables.</span>
+              </li>
+              <li>
+                <span className="mr-2 text-yellow-300">&#10003;</span>
+                <span>
+                  Mentalidad correcta para obtener ganancias consistentes.
+                </span>
+              </li>
+              <li>
+                <span className="mr-2 text-yellow-300">&#10003;</span>
+                <span>Cómo ganar comisiones por brokeraje.</span>
+              </li>
+              <li>
+                <span className="mr-2 text-yellow-300">&#10003;</span>
+                <span>
+                  El paso a paso para copiar señales mientras te conviertes en
+                  un trader profesional.
+                </span>
+              </li>
+            </ul>
           </div>
+
+          <div className="lg:col-span-2 bg-black bg-opacity-70 rounded-2xl flex justify-center items-center">
+            <p className="text-xl lg:text-2xl font-serif font-normal text-white p-5 text-pretty">
+              ¡Despierta tu potencial financiero y aprende a dominar el arte del
+              trading de manera gratuita! No dejes pasar la oportunidad de
+              transformar tus conocimientos y construir un futuro próspero. ¡El
+              aprendizaje está a un clic de distancia, únete ahora y haz que
+              cada movimiento cuente hacia tu éxito financiero! 🚀💹
+              <span className="text-yellow-500">
+                #AprendeATrading #OportunidadÚnica
+              </span>
+            </p>
+          </div>
+
           <div
             id="socials"
-            className="p-5 bg-black bg-opacity-80 flex items-center flex-col"
+            className="p-5 bg-black bg-opacity-80 flex items-center flex-col rounded-2xl"
           >
             <h1 className="text-3xl font-bold mt-5 mb-12">Sígueme:</h1>
             <div className="flex gap-10 mx-auto">
