@@ -37,7 +37,10 @@ const Bento = ({ backgroundImage }) => {
               <source src={Academia} type="video/mp4" />
             </video>
           </div>
-          <div className="p-5 row-span-2 flex items-center bg-black bg-opacity-80 text-left">
+          <div
+            id="Beneficios"
+            className="p-5 row-span-2 flex items-center bg-black bg-opacity-80 text-left"
+          >
             <ul className="text-xl lg:text-3xl list-disc m-5 text-yellow-300 lg:leading-50">
               <li>Aprendizaje sin costo </li>
               <li>Primeros Pasos al Mundo del Trading</li>
@@ -46,7 +49,10 @@ const Bento = ({ backgroundImage }) => {
               <li>Capacitación de Psicotrading</li>
             </ul>
           </div>
-          <div className="p-5 bg-black bg-opacity-80 flex items-center flex-col">
+          <div
+            id="socials"
+            className="p-5 bg-black bg-opacity-80 flex items-center flex-col"
+          >
             <h1 className="text-3xl font-bold mt-5 mb-12">Sígueme:</h1>
             <div className="flex gap-10 mx-auto">
               <a

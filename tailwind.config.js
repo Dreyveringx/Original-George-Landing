@@ -7,7 +7,7 @@ export default {
         serif: ["Roboto Slab", "sans-serif"],
       },
       colors: {
-        primary: "#298af8",
+        primary: "#f5d915",
         secondary: "#5ae6ff",
         tertiary: "#ffed92",
         quaternary: "#005395",
