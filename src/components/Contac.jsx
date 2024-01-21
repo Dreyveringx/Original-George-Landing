@@ -7,6 +7,7 @@ const Contact = () => {
   const [data, setData] = useState({
     user_name: "",
     user_lastname: "",
+    user_phone: "",
     user_email: "",
     message: "",
   });
@@ -48,14 +49,15 @@ const Contact = () => {
     } else {
       try {
         await emailjs.send(
-          "service_e9l35y8",
-          "template_fgowcy1",
+          "service_49zzfmq",
+          "template_b6kjlbq",
           data,
-          "iTdLoXkadX_s2S6ls"
+          "q9yHwx6C-fZfsSeM0"
         );
         setData({
           user_name: "",
           user_lastname: "",
+          user_phone: "",
           user_email: "",
           message: "",
         });
@@ -122,6 +124,15 @@ const Contact = () => {
           </div>
 
           {/* Email fiel */}
+          <input
+            type="number"
+            name="user_phone"
+            value={data.user_phone}
+            onChange={handleTextChange}
+            placeholder="Telefono"
+            className="w-full px-4 py-3 rounded-md border border-[rgba(255,255,255,0.3)] bg-transparent focus:border-senary outline-none text-white"
+          />
+
           <input
             type="email"
             name="user_email"
