@@ -37,7 +37,7 @@ const Hero = () => {
           className="rounded-full w-1/2 lg:w-auto lg:h-auto"
           style={{ objectFit: "cover" }}
         />
-        <p className="lg:hidden mt-10 p-3 lg:w-[600px] text-lg lg:text-xl text-gray-400 font-serif font-normal text-left text-pretty">
+        <p className="lg:hidden mt-10 p-5 lg:w-[600px] text-lg lg:text-xl text-gray-400 font-serif font-normal text-left text-pretty">
           Hola soy George y quiero mostrarte cómo,sin dejar tu profesión actual,
           puedes generar una segunda fuente de ingreso en el mercado más grande
           del mundo sin pagar mensualidades y de la mano de la mejor academia.
