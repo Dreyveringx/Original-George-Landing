@@ -23,7 +23,7 @@ const Bento = ({ backgroundImage }) => {
     <>
       <section style={bentoStyle}>
         <div className="w-full lg:max-w-screen-2xl lg:mx-auto p-5 rounded-2xl text-5xl leading-50 text-center text-white flex flex-col lg:grid lg:grid-cols-3 gap-3">
-          <div className="lg:col-span-3 bg-black bg-opacity-70 h-[350px] md:h-[200px]  lg:h-auto mt-10 rounded-2xl flex justify-center items-center">
+          <div className="lg:col-span-3 bg-black bg-opacity-70 h-[350px] md:h-[200px]  lg:h-auto mt-5 lg:mt-10 rounded-2xl flex justify-center items-center">
             <Welcome />
           </div>
           <div className="block lg:col-span-2 lg:row-span-3 bg-black bg-opacity-80 lg:h-[750px] rounded-2xl">
@@ -81,7 +81,7 @@ const Bento = ({ backgroundImage }) => {
           </div>
 
           <div className="lg:col-span-2 bg-black bg-opacity-70 rounded-2xl flex justify-center items-center">
-            <p className="text-xl lg:text-2xl font-serif font-normal text-white p-5 text-pretty">
+            <p className="text-xl lg:text-2xl font-serif font-normal text-white p-5 text-left text-pretty">
               ¡Despierta tu potencial financiero y aprende a dominar el arte del
               trading de manera gratuita! No dejes pasar la oportunidad de
               transformar tus conocimientos y construir un futuro próspero. ¡El
