@@ -22,11 +22,11 @@ const Bento = ({ backgroundImage }) => {
   return (
     <>
       <section style={bentoStyle}>
-        <div className="w-full lg:max-w-screen-2xl lg:mx-auto p-5 rounded-2xl text-5xl leading-50 text-center text-white flex flex-col lg:grid lg:grid-cols-3 gap-3">
-          <div className="lg:col-span-3 bg-black bg-opacity-70 h-[350px] md:h-[200px]  lg:h-auto mt-5 lg:mt-10 rounded-2xl flex justify-center items-center">
+        <div className="w-full lg:max-w-screen-2xl lg:mx-auto p-5 rounded-2xl text-5xl leading-50 text-center text-white flex flex-col lg:grid lg:grid-cols-4 gap-3">
+          <div className="lg:col-span-4 bg-black bg-opacity-70 h-[350px] md:h-[200px]  lg:h-auto mt-5 lg:mt-10 rounded-2xl flex justify-center items-center">
             <Welcome />
           </div>
-          <div className="block lg:col-span-2 lg:row-span-3 bg-black bg-opacity-80 lg:h-[750px]  rounded-2xl">
+          <div className="block lg:col-span-2  bg-black bg-opacity-80 lg:h-[750px]  rounded-2xl">
             <video
               autoPlay
               loop
@@ -39,20 +39,20 @@ const Bento = ({ backgroundImage }) => {
           </div>
           <div
             id="Beneficios"
-            className="p-5 row-span-3 flex items-center bg-black bg-opacity-80 text-left flex-col rounded-2xl"
+            className="p-5 lg:col-span-2 flex  bg-black bg-opacity-80 text-left flex-col rounded-2xl"
           >
-            <h1 className="text-2xl lg:text-4xl font-serif font-semibold text-yellow-500 mb-5">
+            <h1 className="text-2xl lg:text-4xl font-serif font-semibold text-yellow-500 my-5 text-center">
               Beneficios
             </h1>
             <ul className="text-xl lg:text-2xl list-disc m-5 text-white lg:leading-10">
-              <li>Aprendizaje sin costo. </li>
-              <li>Primeros Pasos al Mundo del Trading.</li>
-              <li>Desarrollo de Habilidades de Trading.</li>
-              <li>Acceso a Recursos Educativos.</li>
-              <li>Capacitación de Psicotrading.</li>
+              <li className="lg:ml-9">Aprendizaje sin costo. </li>
+              <li className="lg:ml-9">Primeros Pasos al Mundo del Trading.</li>
+              <li className="lg:ml-9">Desarrollo de Habilidades de Trading.</li>
+              <li className="lg:ml-9">Acceso a Recursos Educativos.</li>
+              <li className="lg:ml-9">Capacitación de Psicotrading.</li>
             </ul>
 
-            <h1 className="text-2xl lg:text-4xl font-serif font-semibold text-yellow-500 mb-5">
+            <h1 className="text-2xl lg:text-4xl font-serif font-semibold text-yellow-500 my-5 text-center">
               Lo que aprenderás
             </h1>
             <ul className="text-xl lg:text-2xl list-none m-5 text-white lg:leading-10">
@@ -80,7 +80,7 @@ const Bento = ({ backgroundImage }) => {
             </ul>
           </div>
 
-          <div className="lg:col-span-2 bg-black bg-opacity-70 rounded-2xl flex justify-center items-center">
+          <div className="lg:col-span-3 bg-black bg-opacity-70 rounded-2xl flex justify-center items-center">
             <p className="text-xl lg:text-2xl font-serif font-normal text-white p-5 text-left text-pretty">
               ¡Despierta tu potencial financiero y aprende a dominar el arte del
               trading de manera gratuita! No dejes pasar la oportunidad de
@@ -95,7 +95,7 @@ const Bento = ({ backgroundImage }) => {
 
           <div
             id="socials"
-            className="p-5 bg-black bg-opacity-80 flex items-center flex-col rounded-2xl"
+            className="p-5  bg-black bg-opacity-80 flex items-center flex-col rounded-2xl"
           >
             <h1 className="text-3xl font-bold mt-5 mb-12">Sígueme:</h1>
             <div className="flex gap-10 mx-auto">
